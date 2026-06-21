@@ -1,0 +1,17 @@
+{
+  "name": "@chirag127/astro-test-utils",
+  "version": "0.1.1",
+  "description": "Common Vitest + Playwright + MSW + Firebase test fixtures for the chirag127/oriz family. Thin wrapper over @firebase/rules-unit-testing, msw, @playwright/test.",
+  "type": "module",
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Chirag Singhal <chirag@oriz.in>",
+  "homepage": "https://github.com/chirag127/astro-test-utils-npm-pkg#readme",
+  "repository": { "type": "git", "url": "git+https://github.com/chirag127/astro-test-utils-npm-pkg.git" },
+  "bugs": { "url": "https://github.com/chirag127/astro-test-utils-npm-pkg/issues" },
+  "keywords": ["chirag127", "oriz", "testing", "vitest", "playwright", "msw"],
+  "files": ["src", "LICENSE", "README.md"],
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": { ".": "./src/index.ts" },
+  "publishConfig": { "access": "public" }
+}
